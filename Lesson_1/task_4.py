@@ -1,5 +1,5 @@
 # решение задания 4 из урока 2
-my_str = input("введите строку ")
+my_str = input("введите текст ")
 my_word = []
 num = 1
 for el in range(my_str.count(' ') + 1):

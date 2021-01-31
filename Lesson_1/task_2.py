@@ -4,7 +4,7 @@ my_list = []
 i = 0
 el = 0
 while i < el_count:
-    my_list.append(input("Введите следующее значение списка "))
+    my_list.append(input("Введите ведите элементы списка "))
     i += 1
 
 for elem in range(int(len(my_list)/2)):
