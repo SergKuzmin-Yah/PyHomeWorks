@@ -6,7 +6,7 @@ my_list = [7, 5, 3, 3, 2]
 
 while True:
     new_digit = input('Введите новый элемент рейтинга: ')
-        new_digit = int(new_digit)
+    new_digit = int(new_digit)
 
     for my_list in range(1, len(my_list)):
           if new_digit >= max(my_list):
